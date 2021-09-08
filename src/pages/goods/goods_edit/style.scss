@@ -1,0 +1,31 @@
+#goods-edit{
+  .input-with-cancel{
+    position: relative;
+    .anticon{
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(50%, -50%);
+      background: #fff;
+    }
+  }
+  .spec-item{
+    display: flex;
+    .spec-item-name{
+      flex: 1;
+      margin: 10px;
+    }
+    .spec-item-content{
+      
+      flex: 2;
+      .spec-content-item{
+        display: flex;
+        margin: 10px;
+        div{
+          flex: 1;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}

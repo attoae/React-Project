@@ -1,0 +1,20 @@
+export interface Locale {
+  "home_page": string,
+  "analysis": string,
+  "analysis_user": string,
+  "analysis_order": string,
+  "goods": string,
+  "goods_management": string,
+  "goods_edit": string,
+  "category": string,
+  "category_management": string,
+  "order": string,
+  "order_management": string,
+  "order_view": string,
+  "setting": string,
+  "permission_management": string,
+  "permission_edit": string,
+  "account_management": string,
+  "account_edit": string,
+  [propName: string]: string
+}
